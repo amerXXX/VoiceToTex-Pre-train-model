@@ -11,3 +11,11 @@ Supports different Whisper model sizes for varying accuracy and speed trade-offs
 Allows selection of device (CPU or GPU) for transcription.
 
 Includes an option for Voice Activity Detection (VAD) filtering to improve results.
+
+# expected output format:
+```
+[i] Loading model='medium' on device='cuda' ...
+[i] Transcribing: Recording 1.m4a
+[✓] Done. Segments: 1294  ~2799s audio
+[→] Transcript (plain text): /content/Recording 1.txt
+[→] Subtitles (SRT):        /content/Recording 1.srt
